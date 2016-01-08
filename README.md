@@ -1,8 +1,9 @@
 React Minimal Boilerplate
 ---
 
-This project is minimal environment for React projects
-It is for people who know nothing about React ecosystem and do not want to use webpack, hot module replacement, server rendering and other great features.
+This project is minimal environment for React projects.
+About 20 lines of configuration, nothing more.
+This is for people who know nothing about React ecosystem and do not want to learn Webpack, Redux, react-router, react-transform and other together.
 
 ## Do I need to use it in my React project?
 No. This is stuff for beginners to start learning React without big knowledges in tooling and React ecosystem.
