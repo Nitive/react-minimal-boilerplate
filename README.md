@@ -6,7 +6,7 @@ It is for people who know nothing about React ecosystem and do not want to use w
 
 ## Do I need to use it in my React project?
 No. This is stuff for beginners to start learning React without big knowledges in tooling and React ecosystem.
-It does not have some important optimisation for production 
+It does not have some important optimisation for production.
 
 ## What inside?
 - [Browserify](http://browserify.org)
@@ -15,19 +15,20 @@ It does not have some important optimisation for production
 - [Browsersync](https://browsersync.io)
 
 ## Structure
-- app
-	- components
-		- ComponentName.jsx
+- `app`
+	- `components`
+		- `ComponentName.jsx`
 		- ...
-	- styles
-		- ComponentName.styl
+	- `styles`
+		- `ComponentName.styl`
 		- ...
-	- app.js
-	- app.styl
-- index.html
-- build // compiled files here
+	- `app.js`
+	- `app.styl`
+- `index.html`
+- `build // compiled files here`
 
 ## Usage
 
-`npm start` - start local server, watch and compile css and js files
-`npm run build` - build into `build` folder with minification
+`npm start` - start local server, watch and compile files, autoreload page  
+
+`npm run build` - build into `build/` folder with minification
