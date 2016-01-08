@@ -32,3 +32,8 @@ It does not have some important optimisation for production.
 `npm start` - start local server, watch and compile files, autoreload page  
 
 `npm run build` - build into `build/` folder with minification
+
+
+## Troubleshooting
+#### I don't want use Stylus
+Just add .css extension in glob pattern inside `app/app.styl` (`@import 'styles/*.css'`) and put .css files in `app/styles` instead of .styl

@@ -6,7 +6,7 @@
     "start": "concurrent 'npm run watch' 'npm run server'",
     "server": "browser-sync start --files 'index.html, build/*' --server",
     "build:js": "browserify app/app.js | uglifyjs > build/bundle.js",
-    "build:css": "stylus -u autoprefixer-stylus app/app.styl -o build/main.css",
+    "build:css": "stylus --include-css -u autoprefixer-stylus app/app.styl -o build/main.css",
     "build": "concurrent 'npm run build:js' 'npm run build:css -- --compress'",
     "watch:js": "watchify -d app/app.js -o build/bundle.js",
     "watch:css": "npm run build:css -- --watch --sourcemap-inline",
