@@ -5,15 +5,16 @@
   "scripts": {
     "start": "concurrent 'npm run watch' 'npm run server'",
     "server": "browser-sync start --files 'index.html, build/*' --server",
-    "build:js": "browserify app/app.js -o build/bundle.js",
-    "build:css": "stylus app/app.styl -o build/main.css",
-    "build": "concurrent 'npm run build:js' 'npm run build:css'",
+    "build:js": "browserify app/app.js | uglifyjs > build/bundle.js",
+    "build:css": "stylus -u autoprefixer-stylus app/app.styl -o build/main.css",
+    "build": "concurrent 'npm run build:js' 'npm run build:css -- --compress'",
     "watch:js": "watchify app/app.js -o build/bundle.js",
     "watch:css": "npm run build:css -- --watch",
     "watch": "concurrent 'npm run watch:js' 'npm run watch:css'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "autoprefixer-stylus": "^0.8.1",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
