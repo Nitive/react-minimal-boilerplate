@@ -1,12 +1,11 @@
-React Minimal Boilerplate
----
+# React Minimal Boilerplate
 
-This project is minimal environment for React projects.
-About 20 lines of configuration, nothing more.
-This is for people who know nothing about React ecosystem and do not want to learn Webpack, Redux, react-router, react-transform and other together.
+This project is minimal environment for React projects.  
+About 20 lines of configuration, nothing more.  
+This is for people who know nothing about React ecosystem and do not want to learn Webpack, Redux, react-router, react-transform, etc together.
 
 ## Do I need to use it in my React project?
-No. This is stuff for beginners to start learning React without big knowledges in tooling and React ecosystem.
+No. This is stuff for beginners to start learning React without big knowledges in tooling and React ecosystem.  
 It does not have some important optimisation for production.
 
 ## What inside?
@@ -36,5 +35,7 @@ It does not have some important optimisation for production.
 
 
 ## Troubleshooting
-#### I don't want use Stylus
-Just add .css extension in glob pattern inside `app/app.styl` (`@import 'styles/*.css'`) and put .css files in `app/styles` instead of .styl
+
+#### I do not want use Stylus
+1. Add .css extension in glob pattern inside `app/app.styl` (`@import 'styles/*.css'`) 
+2. Put .css files in `app/styles` instead of .styl
