@@ -25,6 +25,7 @@
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "stylus": "^0.53.0",
+    "uglify-js": "^2.6.1",
     "watchify": "^3.6.1"
   },
   "keywords": [
