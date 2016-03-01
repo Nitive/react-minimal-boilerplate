@@ -26,7 +26,9 @@
     "react-dom": "^0.14.6",
     "stylus": "^0.53.0",
     "uglify-js": "^2.6.1",
-    "watchify": "^3.6.1"
+    "watchify": "^3.6.1",
+    "npm-run-all": "^1.5.1",
+    "nodemon": "^1.9.1"
   },
   "keywords": [
     "react",
