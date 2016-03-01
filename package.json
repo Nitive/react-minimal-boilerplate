@@ -11,7 +11,7 @@
     "watch:js": "watchify -d app/app.js -o build/bundle.js",
     "watch:css": "npm run build:css -- --watch --sourcemap-inline",
     "watch": "concurrent 'npm run watch:js' 'npm run watch:css'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "devDependencies": {
     "autoprefixer-stylus": "^0.8.1",
