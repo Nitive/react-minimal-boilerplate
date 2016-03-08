@@ -27,7 +27,7 @@
     "stylus": "0.54.0",
     "uglify-js": "2.6.2",
     "watchify": "3.7.0",
-    "npm-run-all": "1.5.1",
+    "npm-run-all": "1.5.2",
     "nodemon": "1.9.1"
   },
   "keywords": [
