@@ -21,7 +21,7 @@
     "babelify": "7.3.0",
     "browser-sync": "2.12.8",
     "browserify": "13.0.0",
-    "concurrently": "2.0.0",
+    "concurrently": "2.1.0",
     "react": "0.14.8",
     "react-dom": "0.14.7",
     "stylus": "0.54.5",
