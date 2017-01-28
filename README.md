@@ -1,5 +1,7 @@
 # React Minimal Boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Nitive/react-minimal-boilerplate.svg)](https://greenkeeper.io/)
+
 This project is minimal environment for React projects.  
 About 20 lines of configuration, nothing more.  
 This is for people who know nothing about React ecosystem and do not want to learn Webpack, Redux, react-router, react-transform, etc together.
